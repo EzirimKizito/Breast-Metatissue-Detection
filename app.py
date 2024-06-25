@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load the model (Make sure to provide the correct path to the model)
-MODEL_PATH = '/content/best_model_eff_netb0.keras'
+MODEL_PATH = 'best_model_mobnetv3.keras'
 model = load_model(MODEL_PATH)
 
 def load_image(image_file):
